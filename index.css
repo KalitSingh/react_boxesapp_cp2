@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 10px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  font-size: 60px;
+  font-weight: 900;
+  color: #0f172a;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    margin-bottom: 4%;
+    margin-top: 3%;
+  }
+}
+
+.boxes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .boxes-container {
+    flex-direction: row;
+    align-items: flex-end;
+  }
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: lightpink;
+  border-radius: 4px;
+  margin-bottom: 6%;
+  padding-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .box {
+    margin-right: 6%;
+  }
+}
+.para {
+  font-family: 'Bree Serif';
+  font-size: 22px;
+  font-weight: bold;
+}
+.small-box {
+  background-color: #fbbf24;
+  width: 90px;
+  height: 90px;
+}
+@media screen and (min-width: 768px) {
+  .small-box {
+    width: 110px;
+    height: 110px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .small-box {
+    width: 150px;
+    height: 150px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .small-box {
+    width: 180px;
+    height: 180px;
+  }
+}
+.medium-box {
+  background-color: #38bdf8;
+  width: 180px;
+  height: 180px;
+}
+@media screen and (min-width: 768px) {
+  .medium-box {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .medium-box {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .medium-box {
+    width: 290px;
+    height: 290px;
+  }
+}
+.large-box {
+  background-color: #ec4899;
+  width: 270px;
+  height: 270px;
+}
+@media screen and (min-width: 768px) {
+  .large-box {
+    width: 310px;
+    height: 310px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .large-box {
+    width: 350px;
+    height: 350px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .large-box {
+    width: 400px;
+    height: 400px;
+  }
+}
